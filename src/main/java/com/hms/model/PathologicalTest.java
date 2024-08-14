@@ -6,7 +6,7 @@ package com.hms.model;
 
 /**
  *
- * @author Nazmul
+ * @author Mushfiq
  */
 public class PathologicalTest {
     String title;
