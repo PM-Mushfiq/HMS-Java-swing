@@ -6,7 +6,7 @@ package com.hms.view;
 
 /**
  *
- * @author Nazmul
+ * @author Mushfiq
  */
 public class Home extends javax.swing.JFrame {
 
