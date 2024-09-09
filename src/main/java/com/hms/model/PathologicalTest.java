@@ -1,35 +1,47 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.hms.model;
 
 /**
  *
- * @author Nazmul
+ * @author Mushfiq
  */
-public class PathologicalTest {
-    String title;
-    double cost;
-    boolean isAvailable;
+public class PathologicalTest extends LabTest {
+//    private String title;
+//    private double cost;
+//    private boolean isAvailable;
+    private String reagent;
     
-    PathologicalTest(String title,
-                    double cost,
-                    boolean isAvailable){
+    public PathologicalTest(){}
+    public PathologicalTest(String title, double cost){
         this.title = title;
         this.cost = cost;
-        this.isAvailable = isAvailable;               
     }
-    String show(){
-        String output = "Test name: "+this.title+"<br>"
-                + "Cost: "+this.cost+"<br>"
-                + "Availability: "+this.isAvailable;
+    public PathologicalTest(String title, int cost){
+        this.title = title;
+        this.cost = cost;
+    }
+    public PathologicalTest(double cost, String name){
+        this.title = name;
+        this.cost = cost;
+    }
+    public PathologicalTest(String title,
+                    double cost,
+                    boolean isAvailable,
+                    String reagent){
+        super(title,cost,isAvailable); 
+        this.reagent = reagent;
+    }
+    
+    @Override
+    public String returnLabTestInfo(){
+        String output = super.returnLabTestInfo()+"\n"
+                + "Reagent: "+this.reagent+"\n";
         return output;
     }
-    void search(String title){
-        if(this.title == title)
-            show();
-        else
-            System.out.println("Not found");
+
+    public double calcCost() {
+        double totalCost=0;// = this.cost- this.cost* ;
+        
+        return totalCost;
     }
 }
