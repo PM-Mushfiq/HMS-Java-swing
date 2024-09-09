@@ -1,5 +1,7 @@
-C:\Users\Nazmul\Documents\NetBeansProjects\HospitalManagementSoftware\src\main\java\com\hms\view\PathologicalTestSetup.java
-C:\Users\Nazmul\Documents\NetBeansProjects\HospitalManagementSoftware\src\main\java\com\hms\view\PathologicalTestSearch.java
-C:\Users\Nazmul\Documents\NetBeansProjects\HospitalManagementSoftware\src\main\java\com\hms\model\PathologicalTest.java
-C:\Users\Nazmul\Documents\NetBeansProjects\HospitalManagementSoftware\src\main\java\com\hms\controller\HospitalManagementSoftware.java
-C:\Users\Nazmul\Documents\NetBeansProjects\HospitalManagementSoftware\src\main\java\com\hms\view\Home.java
+H:\1.SoftDev-Java\HospitalManagementSoftware\src\main\java\com\hms\view\Home.java
+H:\1.SoftDev-Java\HospitalManagementSoftware\src\main\java\com\hms\view\LabTestSetup.java
+H:\1.SoftDev-Java\HospitalManagementSoftware\src\main\java\com\hms\model\LabTest.java
+H:\1.SoftDev-Java\HospitalManagementSoftware\src\main\java\com\hms\controller\HospitalManagementSoftware.java
+H:\1.SoftDev-Java\HospitalManagementSoftware\src\main\java\com\hms\model\PathologicalTest.java
+H:\1.SoftDev-Java\HospitalManagementSoftware\src\main\java\com\hms\model\RadiologicalTest.java
+H:\1.SoftDev-Java\HospitalManagementSoftware\src\main\java\com\hms\view\LabTestSearch.java

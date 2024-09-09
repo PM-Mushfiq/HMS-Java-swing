@@ -41,7 +41,7 @@ public class Home extends javax.swing.JFrame {
         menuHome.setText("Home");
         jMenuBar1.add(menuHome);
 
-        menuPTest.setText("Pathological Test");
+        menuPTest.setText("Lab Test");
 
         menuPTestSetup.setText("Setup (Input)");
         menuPTestSetup.addActionListener(new java.awt.event.ActionListener() {
@@ -85,12 +85,12 @@ public class Home extends javax.swing.JFrame {
 
     private void menuPTestSetupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPTestSetupActionPerformed
         // TODO add your handling code here:
-        new PathologicalTestSetup().setVisible(true);
+        new LabTestSetup().setVisible(true);
     }//GEN-LAST:event_menuPTestSetupActionPerformed
 
     private void menuPTestSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPTestSearchActionPerformed
         // TODO add your handling code here:
-        new PathologicalTestSearch().setVisible(true);
+        new LabTestSearch().setVisible(true);
     }//GEN-LAST:event_menuPTestSearchActionPerformed
 
     /**
