@@ -63,8 +63,8 @@ public class LabTestSearch extends javax.swing.JFrame {
 
         testsInfo.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"CBC", "500", "Yes", "Detail Edit Del"},
-                {"X-Ray", "400", "Yes", "Detail Edit Del"}
+                {"CBC", "500", "Yes", "Detail   Edit   Del"},
+                {"X-Ray", "400", "Yes", "Detail   Edit   Del"}
             },
             new String [] {
                 "Title", "Cost", "Available?", "Action"
